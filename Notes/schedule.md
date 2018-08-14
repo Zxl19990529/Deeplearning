@@ -11,3 +11,7 @@
 10. [Flexpoint: An Adaptive Numerical Format for Efficient Training of Deep Neural Networks. (Quantization)  NIPS2017](http://papers.nips.cc/paper/6771-flexpoint-an-adaptive-numerical-format-for-efficient-training-of-deep-neural-networks.pdf) 
 11. [QSGD: Communication-Efficient SGD via Gradient Quantization and Encoding.(Quantization)  NIPS2017](http://papers.nips.cc/paper/6768-qsgd-communication-efficient-sgd-via-gradient-quantization-and-encoding.pdf) 
 12. [TernGrad: Ternary Gradients to Reduce Communication in Distributed Deep Learning.(Quantization)  NIPS2017](http://papers.nips.cc/paper/6749-terngrad-ternary-gradients-to-reduce-communication-in-distributed-deep-learning.pdf)
+### 对于一篇论文<h2>
+- 先读懂讲啥了
+- 给代码的跑一下代码
+- 没给代码的试图复现代码
