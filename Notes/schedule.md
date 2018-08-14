@@ -12,6 +12,7 @@
 11. [QSGD: Communication-Efficient SGD via Gradient Quantization and Encoding.(Quantization)  NIPS2017](http://papers.nips.cc/paper/6768-qsgd-communication-efficient-sgd-via-gradient-quantization-and-encoding.pdf) 
 12. [TernGrad: Ternary Gradients to Reduce Communication in Distributed Deep Learning.(Quantization)  NIPS2017](http://papers.nips.cc/paper/6749-terngrad-ternary-gradients-to-reduce-communication-in-distributed-deep-learning.pdf)
 ### 对于一篇论文<h2>
-- 先读懂讲啥了
+- 先读懂讲啥了……
 - 给代码的跑一下代码
 - 没给代码的试图复现代码
+- 总结这篇论文的 出发点、使用的方法、最后的结论。
