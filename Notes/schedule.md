@@ -1,5 +1,5 @@
 ### 需要读的论文（按时间顺序）：(先看pruning和quantiation部分) <h1>
-1. SBNet: Sparse Blocks Network for Fast Inference. (Pruning )  CVPR2018  
+1. [SBNet: Sparse Blocks Network for Fast Inference. (Pruning )  CVPR2018](http://www.cs.toronto.edu/~mren/sbnet/papers/paper.pdf)  
 2. Extremely Low Bit Neural Network: Squeeze the Last Bit Out with ADMM(Quantization)  AAAI2018  
 3. From Hashing to CNNs: Training Binary Weight Networks via Hashing(Quantization) AAAI2018  
 4. A General Two-Step Quantization Approach for Low-bit Neural Networks with High Accuracy(Quantization)  CVPR2018  
