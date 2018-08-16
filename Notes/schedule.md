@@ -1,3 +1,5 @@
+### 综述文献 
+[A Survey of Model Compression and Acceleration for Deep Neural Networks](https://arxiv.org/pdf/1710.09282.pdf)
 ### 需要读的论文（按时间顺序）：(先看pruning和quantiation部分) <h1>
 1. [SBNet: Sparse Blocks Network for Fast Inference. (Pruning )  CVPR2018](http://www.cs.toronto.edu/~mren/sbnet/papers/paper.pdf)  
 2. [Extremely Low Bit Neural Network: Squeeze the Last Bit Out with ADMM(Quantization)  AAAI2018](https://www.aaai.org/ocs/index.php/AAAI/AAAI18/paper/viewFile/16767/16728)
