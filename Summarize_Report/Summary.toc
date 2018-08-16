@@ -1,0 +1,13 @@
+\contentsline {section}{\numberline {1}Introduction}{1}
+\contentsline {section}{\numberline {2}Main Methods}{2}
+\contentsline {subsection}{\numberline {2.1}Pruning}{2}
+\contentsline {subsubsection}{\numberline {2.1.1}DrawBacks:}{2}
+\contentsline {subsection}{\numberline {2.2}Low-rank Factorization}{2}
+\contentsline {subsubsection}{\numberline {2.2.1}DrawBacks}{2}
+\contentsline {subsection}{\numberline {2.3}Quantization}{3}
+\contentsline {subsubsection}{\numberline {2.3.1}DrawBacks:}{3}
+\contentsline {subsection}{\numberline {2.4}Knowledge Distillation}{3}
+\contentsline {subsubsection}{\numberline {2.4.1}DrawBacks:}{3}
+\contentsline {subsection}{\numberline {2.5}Compact Network Design}{3}
+\contentsline {subsubsection}{\numberline {2.5.1}DrawBacks:}{3}
+\contentsline {section}{\numberline {3}Trend and Future}{4}
