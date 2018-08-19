@@ -30,7 +30,7 @@
 大数据训练：百万级ImageNet图像数据
 其他：GPU实现，LRN归一化层的使用
 ```
-### Architecture 
+### Architecture   
 ![](https://img-blog.csdn.net/20180105160330931?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvenltMTk5NDExMTk=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
 ## VGG
 [论文链接](https://arxiv.org/pdf/1409.1556.pdf)
