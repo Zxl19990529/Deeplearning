@@ -32,7 +32,7 @@
 ```
 ### Architecture   
 
-![](https://images2015.cnblogs.com/blog/539316/201611/539316-20161103152006627-2079453952.png)
+![](https://github.com/Zxl19990529/Deeplearning/blob/master/Images/Alexnet_pitcture.png)
 
 ## VGG
 [论文链接](https://arxiv.org/pdf/1409.1556.pdf) 
