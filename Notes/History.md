@@ -32,7 +32,8 @@
 ```
 ### Architecture   
 
-![](https://img-blog.csdn.net/20180105160330931?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvenltMTk5NDExMTk=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
+![](https://images2015.cnblogs.com/blog/539316/201611/539316-20161103152006627-2079453952.png)
+
 ## VGG
 [论文链接](https://arxiv.org/pdf/1409.1556.pdf) 
 VGG是Oxford的**V**isual **G**eometry **G**roup的组提出的（大家应该能看出VGG名字的由来了）。该网络是在ILSVRC 2014上的相关工作，主要工作是证明了增加网络的深度能够在一定程度上影响网络最终的性能。VGG有两种结构，分别是VGG16和VGG19，两者并没有本质上的区别，只是网络深度不一样。  
