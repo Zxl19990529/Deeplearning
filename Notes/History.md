@@ -50,7 +50,8 @@ VGG网络的结构非常一致，从头到尾全部使用的是3x3的卷积和2x
 **优点**
 - VGGNet的结构非常简洁，整个网络都使用了同样大小的卷积核尺寸（3x3）和最大池化尺寸（2x2）。
 - 几个小滤波器（3x3）卷积层的组合比一个大滤波器（5x5或7x7）卷积层好：
-- 验证了通过不断加深网络结构可以提升性能。
+- 验证了通过不断加深网络结构可以提升性能。  
+
 **缺点**
 - VGG耗费更多计算资源，并且使用了更多的参数（这里不是3x3卷积的锅），导致更多的内存占用（140M）。其中绝大多数的参数都是来自于第一个全连接层。VGG有3个全连接层.
 ## [GoogLeNet](https://blog.csdn.net/qq_31531635/article/details/72232651)
@@ -66,11 +67,12 @@ inception（也称GoogLeNet）是2014年Christian Szegedy提出的一种全新�
 
 通常全连接是为了更好的优化并行计算，而稀疏连接是为了打破对称来改善学习，传统常常利用卷积来利用空间域上的稀疏性，但卷积在网络的早期层中的与patches的连接也是稠密连接，因此考虑到能不能在滤波器层面上利用稀疏性，而不是神经元上。但是在非均匀稀疏数据结构上进行数值计算效率很低，并且查找和缓存未定义的开销很大，而且对计算的基础设施要求过高，因此考虑到将稀疏矩阵聚类成相对稠密子空间来倾向于对稀疏矩阵的计算优化。因此提出了inception结构。  
 
-![](http://img.blog.csdn.net/20170425202311053?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQv/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/Center)  
+![](https://images2015.cnblogs.com/blog/822124/201609/822124-20160902160437324-793316644.png)  
+
 
 由于滤波器数量的增加，加上池化操作使得5x5大小的滤波器的计算开销非常大，池化层输出与卷积层输出的合并增加了输出值的数量，并且可能覆盖优化稀疏结构，处理十分低效，引起计算爆炸。因此引出下面这个inception结构。 
 
-![](http://img.blog.csdn.net/20170425203028574?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQv/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/Center)
+![](https://upload-images.jianshu.io/upload_images/8904720-e54387f99054ef49.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/700)
 
 ## ResNet
 ResNet在2015年被提出，在ImageNet比赛classification任务上获得第一名，因为它“简单与实用”并存，之后很多方法都建立在ResNet50或者ResNet101的基础上完成的，检测，分割，识别等领域都纷纷使用ResNet，Alpha zero也使用了ResNet，所以ResNet很好用。 
