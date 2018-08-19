@@ -31,9 +31,10 @@
 其他：GPU实现，LRN归一化层的使用
 ```
 ### Architecture   
+
 ![](https://img-blog.csdn.net/20180105160330931?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvenltMTk5NDExMTk=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
 ## VGG
-[论文链接](https://arxiv.org/pdf/1409.1556.pdf)
+[论文链接](https://arxiv.org/pdf/1409.1556.pdf) 
 VGG是Oxford的**V**isual **G**eometry **G**roup的组提出的（大家应该能看出VGG名字的由来了）。该网络是在ILSVRC 2014上的相关工作，主要工作是证明了增加网络的深度能够在一定程度上影响网络最终的性能。VGG有两种结构，分别是VGG16和VGG19，两者并没有本质上的区别，只是网络深度不一样。  
 *VGG很好地继承了AlexNet的衣钵，一个字：深，两个字：更深。*
 ### VGG原理
@@ -63,10 +64,13 @@ inception（也称GoogLeNet）是2014年Christian Szegedy提出的一种全新�
 - 网络尺寸的增加也意味着参数的增加，也就使得网络更加容易过拟合。 
 - 计算资源的增加。  
 
-通常全连接是为了更好的优化并行计算，而稀疏连接是为了打破对称来改善学习，传统常常利用卷积来利用空间域上的稀疏性，但卷积在网络的早期层中的与patches的连接也是稠密连接，因此考虑到能不能在滤波器层面上利用稀疏性，而不是神经元上。但是在非均匀稀疏数据结构上进行数值计算效率很低，并且查找和缓存未定义的开销很大，而且对计算的基础设施要求过高，因此考虑到将稀疏矩阵聚类成相对稠密子空间来倾向于对稀疏矩阵的计算优化。因此提出了inception结构。   
-![](https://img-blog.csdn.net/20170516000934768?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvcXFfMzE1MzE2MzU=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)  
-由于滤波器数量的增加，加上池化操作使得5x5大小的滤波器的计算开销非常大，池化层输出与卷积层输出的合并增加了输出值的数量，并且可能覆盖优化稀疏结构，处理十分低效，引起计算爆炸。因此引出下面这个inception结构。  
-![](https://img-blog.csdn.net/20170516001042284?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvcXFfMzE1MzE2MzU=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
+通常全连接是为了更好的优化并行计算，而稀疏连接是为了打破对称来改善学习，传统常常利用卷积来利用空间域上的稀疏性，但卷积在网络的早期层中的与patches的连接也是稠密连接，因此考虑到能不能在滤波器层面上利用稀疏性，而不是神经元上。但是在非均匀稀疏数据结构上进行数值计算效率很低，并且查找和缓存未定义的开销很大，而且对计算的基础设施要求过高，因此考虑到将稀疏矩阵聚类成相对稠密子空间来倾向于对稀疏矩阵的计算优化。因此提出了inception结构。  
+
+![](http://img.blog.csdn.net/20170425202311053?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQv/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/Center)  
+
+由于滤波器数量的增加，加上池化操作使得5x5大小的滤波器的计算开销非常大，池化层输出与卷积层输出的合并增加了输出值的数量，并且可能覆盖优化稀疏结构，处理十分低效，引起计算爆炸。因此引出下面这个inception结构。 
+
+![](http://img.blog.csdn.net/20170425203028574?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQv/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/Center)
 
 ## ResNet
 ResNet在2015年被提出，在ImageNet比赛classification任务上获得第一名，因为它“简单与实用”并存，之后很多方法都建立在ResNet50或者ResNet101的基础上完成的，检测，分割，识别等领域都纷纷使用ResNet，Alpha zero也使用了ResNet，所以ResNet很好用。 
@@ -78,10 +82,6 @@ ResNet在2015年被提出，在ImageNet比赛classification任务上获得第一
 ### Res结构原理
 总结构：  
 ![](https://upload-images.jianshu.io/upload_images/4038437-cad347309409e3b5.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/423)  
- building block 如下: 
- ![](https://img-blog.csdn.net/20171223110655214?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvSmluZ194aWFu/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)  
- building block结构包含一个残差支路和short-cut支路，比传统的卷积结构多了一个short-cut支路，用于传递低层的信息使得网络能够训练地很深。   
- bottleneck的结构如下：   
- ![](https://img-blog.csdn.net/20171223110840479?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvSmluZ194aWFu/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
 
-
+更深的瓶颈结构：  
+![](https://upload-images.jianshu.io/upload_images/6095626-287fc59a3cd86488.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
