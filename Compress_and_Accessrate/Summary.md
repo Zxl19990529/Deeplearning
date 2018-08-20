@@ -2,78 +2,126 @@
 
 ## Designing Structural Matrix
 - 2015 
-  - Fast multidimensional convolution in low-rank tensor formats via cross approximation
-  - Structured transforms for small-footprint deep learning
-  - Deep fried convnets
-  - Fast neural networks with circulant projections
-  - An exploration of parameter redundancy in deep networks with circulant projections
+  - [Fast multidimensional convolution in low-rank tensor formats via cross approximation](https://epubs.siam.org/doi/pdf/10.1137/140958529)
+  - [Structured transforms for small-footprint deep learning](http://papers.nips.cc/paper/5869-structured-transforms-for-small-footprint-deep-learning.pdf)
+  - [Deep fried convnets](https://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Yang_Deep_Fried_Convnets_ICCV_2015_paper.pdf)
+  - [Fast neural networks with circulant projections](http://sanjivk.com/CNN_arxiv.pdf)
+  - [An exploration of parameter redundancy in deep networks with circulant projections](https://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Cheng_An_Exploration_of_ICCV_2015_paper.pdf)
 - 1991 
   - Generalized Displacement Structure for Block-Toeplitz, Toeplitz-block, and Toeplitz-derived Matrices
 ## Knowledge Distillation
+- 2017 
+  - [A Gift From Knowledge Distillation: Fast Optimization, Network Minimization and Transfer Learning](http://openaccess.thecvf.com/content_cvpr_2017/papers/Yim_A_Gift_From_CVPR_2017_paper.pdf)
+  - [Learning Efficient Object Detection Models with Knowledge Distillation](Learning Efficient Object Detection Models with Knowledge Distillation)
 - 2016 
-  - Paying more attention to attention: Improving the performance of convolutional neural networks via attention transfer
-  - Face model compression by distilling knowledge from neurons
+  - [Paying more attention to attention: Improving the performance of convolutional neural networks via attention transfer](https://arxiv.org/pdf/1612.03928.pdf)
+  - [Face model compression by distilling knowledge from neurons](http://www.aaai.org/ocs/index.php/AAAI/AAAI16/paper/download/11977/12130) (点击下载)
 - 2015 
-  - Net2net: Accelerating learning via knowledge transfer
-  - Bayesian dark knowledge
-  - Distilling the knowledge in a neural network
+  - [Net2net: Accelerating learning via knowledge transfer](https://arxiv.org/pdf/1511.05641.pdf)
+  - [Bayesian dark knowledge](http://papers.nips.cc/paper/5965-bayesian-dark-knowledge.pdf)
+  - [Distilling the knowledge in a neural network](https://arxiv.org/pdf/1503.02531.pdf)
 - 2014 
-  - Fitnets: Hints for thin deep nets
-  - Do deep nets really need to be deep?
+  - [Fitnets: Hints for thin deep nets](https://arxiv.org/pdf/1412.6550.pdf)
+  - [Do deep nets really need to be deep?](http://papers.nips.cc/paper/5484-do-deep-nets-really-need-to-be-deep.pdf)
 - 2006 
-  - Model compression
+  - [Model compression](http://delivery.acm.org/10.1145/1160000/1150464/p535-bucilua.pdf?ip=211.64.159.6&id=1150464&acc=ACTIVE%20SERVICE&key=BF85BBA5741FDC6E%2E62F7C54E1C56C642%2E4D4702B0C3E38B35%2E4D4702B0C3E38B35&__acm__=1534748659_e8c8002904e52ce328882f6f9d040bf1)
 ## Low-Rank Factorization and Sparsity
+- 2018
+  - [Wide Compression: Tensor Ring Nets](https://arxiv.org/pdf/1802.09052.pdf)
+  - [Learning Compact Recurrent Neural Networks with Block-Term Tensor Decomposition](http://openaccess.thecvf.com/content_cvpr_2018/papers/Ye_Learning_Compact_Recurrent_CVPR_2018_paper.pdf)
+- 2016
+  - [Accelerating Very Deep Convolutional Networks for Classification and Detection](https://arxiv.org/pdf/1505.06798.pdf)
+  - [Compression of Deep Convolutional Neural Networks for Fast and Low Power Mobile Applications](https://arxiv.org/pdf/1511.06530.pdf)
+
+  - [Tensorizing Neural Networks](https://pdfs.semanticscholar.org/e6f2/f3a5cc7c7213835b9aede15715b5830520e1.pdf)
+  - [Accelerating Convolutional Neural Networks for Mobile Applications](http://delivery.acm.org/10.1145/2970000/2967280/p541-wang.pdf?ip=211.64.159.6&id=2967280&acc=ACTIVE%20SERVICE&key=BF85BBA5741FDC6E%2E62F7C54E1C56C642%2E4D4702B0C3E38B35%2E4D4702B0C3E38B35&__acm__=1534755851_ce9ee1e8069384c056554e67f7d6332f)
 - 2015
-  - Convolutional neural networks with low-rank regularization
+  - [Convolutional neural networks with low-rank regularization](https://arxiv.org/pdf/1511.06067.pdf)
 - 2014 
-  - Speeding-up convolutional neural networks using fine-tuned cp- Decomposition
-  - Speeding up convolutional neural networks with low rank expansions
-  - Exploiting linear structure within convolutional networks for efficient Evaluation
+  - [Speeding-up convolutional neural networks using fine-tuned cp- Decomposition](https://arxiv.org/pdf/1412.6553.pdf) [彩图链接](http://sites.skoltech.ru/app/data/uploads/sites/25/2015/05/iclr2015_poster.pdf)
+  - [Speeding up convolutional neural networks with low rank expansions](https://arxiv.org/pdf/1405.3866.pdf)
+  - [Exploiting linear structure within convolutional networks for efficient Evaluation](http://papers.nips.cc/paper/5544-exploiting-linear-structure-within-convolutional-networks-for-efficient-evaluation.pdf)
 - 2013 
-  - Low-rank matrix factorization for deep neural network training with high-dimensional output targets
-  - Predicting parameters in deep learning
-  - Learning separable Filters
+  - [Low-rank matrix factorization for deep neural network training with high-dimensional output targets](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=6638949)
+  - [Predicting parameters in deep learning](http://papers.nips.cc/paper/5025-predicting-parameters-in-deep-learning.pdf)
+  - [Learning separable Filters](https://www.cv-foundation.org/openaccess/content_cvpr_2013/papers/Rigamonti_Learning_Separable_Filters_2013_CVPR_paper.pdf)
 ## Pruning and sharing
+- 2018
+  - [SBNet: Sparse Blocks Network for Fast Inference](https://arxiv.org/pdf/1801.02108.pdf)
+- 2017
+  - [Combined Group and Exclusive Sparsity for Deep Neural Networks](http://proceedings.mlr.press/v70/yoon17a/yoon17a.pdf)
+  - [Thinet: A filter level pruning method for deep neural network compression](http://openaccess.thecvf.com/content_ICCV_2017/papers/Luo_ThiNet_A_Filter_ICCV_2017_paper.pdf)
+  - [Learning efficient convolutional networks through network slimming](http://openaccess.thecvf.com/content_ICCV_2017/papers/Liu_Learning_Efficient_Convolutional_ICCV_2017_paper.pdf)
+  - [Channel Pruning for Accelerating Very Deep Neural Networks](http://openaccess.thecvf.com/content_ICCV_2017/papers/He_Channel_Pruning_for_ICCV_2017_paper.pdf)
+  - [meProp: Sparsified Back Propagation for Accelerated Deep Learning with Reduced Overfitting](https://arxiv.org/pdf/1706.06197.pdf)
+  - [Variational Dropout Sparsifies Deep Neural Networks](https://arxiv.org/pdf/1701.05369.pdf)
 - 2016 
-  - Pruning filters for efficient convnets
-  - Learning structured sparsity in deep neural networks
-  - Less is more: Towards compact cnns
-  - Fast convnets using group-wise brain damage
+  - [Pruning filters for efficient convnets](https://arxiv.org/abs/1608.08710)
+  - [Learning structured sparsity in deep neural networks](https://papers.nips.cc/paper/6504-learning-structured-sparsity-in-deep-neural-networks.pdf)
+  - [Less is more: Towards compact cnns](https://link.springer.com/chapter/10.1007/978-3-319-46493-0_40)
+  - [Fast convnets using group-wise brain damage](https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Lebedev_Fast_ConvNets_Using_CVPR_2016_paper.pdf)
 - 2015 
-  - Soft weight-sharing for neural network compression
-  - Compressing neural networks with the hashing trick
-  - Learning both weights and connections for efficient neural networks
-  - Data-free parameter pruning for deep neural Networks
+  - [Soft weight-sharing for neural network compression](https://arxiv.org/pdf/1702.04008.pdf)
+  - [Compressing neural networks with the hashing trick](http://proceedings.mlr.press/v37/chenc15.pdf)
+  - [Learning both weights and connections for efficient neural networks](http://papers.nips.cc/paper/5784-learning-both-weights-and-connections-for-efficient-neural-network.pdf)
+  - [Data-free parameter pruning for deep neural Networks](https://arxiv.org/pdf/1507.06149.pdf)
 - 1993
-  - Second order derivatives for network pruning: Optimal brain surgeon
+  - [Second order derivatives for network pruning: Optimal brain surgeon](https://authors.library.caltech.edu/54983/3/647-second-order-derivatives-for-network-pruning-optimal-brain-surgeon(1).pdf)
 - 1990 
-  - Advances in neural information processing systems 2
+  - Advances in neural information processing systems 2(年代久远，暂时没找到链接)
 - 1989
-  - Comparing biases for minimal network construction with back-propagation
+  - [Comparing biases for minimal network construction with back-propagation](https://pdfs.semanticscholar.org/f4ea/5a6ff3ffcd11ec2e6ed7828a7d41279fb3ad.pdf)
 
 ## Quantization and Binarization
+- 2018
+  - [Extremely Low Bit Neural Network: Squeeze the Last Bit Out with ADMM](https://www.aaai.org/ocs/index.php/AAAI/AAAI18/paper/viewPDFInterstitial/16767/16728)
+  - [From Hashing to CNNs: Training Binary Weight Networks via Hashing](https://arxiv.org/pdf/1802.02733.pdf)
+  - [A General Two-Step Quantization Approach for Low-bit Neural Networks with High Accuracy](http://openaccess.thecvf.com/content_cvpr_2018/papers/Wang_Two-Step_Quantization_for_CVPR_2018_paper.pdf)
+- 2017
+  - [Flexpoint: An Adaptive Numerical Format for Efficient Training of Deep Neural Networks](http://papers.nips.cc/paper/6771-flexpoint-an-adaptive-numerical-format-for-efficient-training-of-deep-neural-networks.pdf)
+  - [QSGD: Communication-Efficient SGD via Gradient Quantization and Encoding](https://pdfs.semanticscholar.org/c9d6/4aaa2007b60ef7814acc895dd90f15578a20.pdf)
+  - [TernGrad: Ternary Gradients to Reduce Communication in Distributed Deep Learning](http://papers.nips.cc/paper/6749-terngrad-ternary-gradients-to-reduce-communication-in-distributed-deep-learning.pdf)
 - 2016
-  - Loss-aware binarization of deep Networks
-  - Deep neural networks are robust to weight binarization and other nonlinear distortions
-  - Xnor-net:Imagenet classification using binary convolutional neural networks
-  - Binarynet: Training deep neural networks with weights and activations constrained to +1 or -1
-  - Towards the limit of network quantization 
-  - Deep compression: Compressing Neural networks with pruning, trained quantization and huffman coding
-  - Quantized convolutional neural networks for mobile devices
+  - [Loss-aware binarization of deep Networks](https://arxiv.org/pdf/1611.01600.pdf)
+  - [Deep neural networks are robust to weight binarization and other nonlinear distortions](https://arxiv.org/pdf/1606.01981.pdf)
+  - [Xnor-net:Imagenet classification using binary convolutional neural networks](https://link.springer.com/book/10.1007/978-3-319-46493-0)
+  - [Binarynet: Training deep neural networks with weights and activations constrained to +1 or -1](https://arxiv.org/pdf/1602.02830.pdf)
+  - [Towards the limit of network quantization ](https://arxiv.org/pdf/1612.01543.pdf)
+  - [Deep compression: Compressing Neural networks with pruning, trained quantization and huffman coding](https://arxiv.org/pdf/1510.00149.pdf)
+  - [Quantized convolutional neural networks for mobile devices](https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Wu_Quantized_Convolutional_Neural_CVPR_2016_paper.pdf)
 - 2015
-  - Neural networks with few multiplications
-  - Binaryconnect: Training deep neural networks with binary weights during propagations
-  - Deep learning with limited numerical precision
+  - [Neural networks with few multiplications](https://arxiv.org/pdf/1510.03009.pdf)
+  - [Binaryconnect: Training deep neural networks with binary weights during propagations](http://papers.nips.cc/paper/5647-binaryconnect-training-deep-neural-networks-with-binary-weights-during-propagations.pdf)
+  - [Deep learning with limited numerical precision](http://proceedings.mlr.press/v37/gupta15.pdf)
 - 2014 
-  - Compressing deep convolutional networks using vector quantization
+  - [Compressing deep convolutional networks using vector quantization](https://arxiv.org/pdf/1412.6115.pdf)
 - 2011
-  - Improving the speed of nerual networks on cpus
+  - [Improving the speed of nerual networks on cpus](https://static.googleusercontent.com/media/research.google.com/zh-CN//pubs/archive/37631.pdf)
 ## Transferred/Compact convolutional Filters
+- 2018
+  - [Inverted Residuals and Linear Bottlenecks: Mobile Networks for Classification, Detection and Segmentation](https://arxiv.org/pdf/1801.04381.pdf)
+  - [ShuffleNet: An Extremely Efficient Convolutional Neural Network for Mobile Devices](https://arxiv.org/pdf/1707.01083.pdf)
+- 2017
+  - [MobileNets: Efficient Convolutional Neural Networks for Mobile Vision Applications](https://arxiv.org/pdf/1704.04861.pdf)
 - 2016 
-  - Squeezedet: Unified,small, low power fully convolutional neural networks for real-time object detection for autonomous driving
-  - Inception-v4, inception-resnet and the impact of residual connections on learning.
-  - Exploiting cyclic symmetry in convolutional neural networks
-  - Multi-bias non-linear activation in deep neural networks
-  - Understanding and improving convolutional neural networks via concatenated rectified linear units
-  - Doubly convolutional neural Networks
-  - Group equivariant convolutional netWorks
+  - [Squeezedet: Unified,small, low power fully convolutional neural networks for real-time object detection for autonomous driving](http://openaccess.thecvf.com/content_cvpr_2017_workshops/w4/papers/Wu_SqueezeDet_Unified_Small_CVPR_2017_paper.pdf)
+  - [Inception-v4, inception-resnet and the impact of residual connections on learning.](https://www.aaai.org/ocs/index.php/AAAI/AAAI17/paper/download/14806/14311)
+  - [Exploiting cyclic symmetry in convolutional neural networks](https://arxiv.org/pdf/1602.02660.pdf)
+  - [Multi-bias non-linear activation in deep neural networks](https://arxiv.org/pdf/1604.00676.pdf)
+  - [Understanding and improving convolutional neural networks via concatenated rectified linear units](https://arxiv.org/pdf/1603.05201.pdf)
+  - [Doubly convolutional neural Networks](https://web.iiit.ac.in/~parv.parkhiya/assets/files/SMAI%20Final%20Presentation.pdf)
+  - [Group equivariant convolutional netWorks](http://proceedings.mlr.press/v48/cohenc16.pdf)
+## Other types of approaches
+- 2017 
+  - [Outrageously large neural networks: The sparselygated mixture-of-experts layer](https://openreview.net/pdf?id=B1ckMDqlg)
+- 2016
+  - [S3pool: Pooling with stochastic spatial sampling](http://openaccess.thecvf.com/content_cvpr_2017/papers/Zhai_S3Pool_Pooling_With_CVPR_2017_paper.pdf)
+  - [Fast algorithms for convolutional neural net- Works](https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Lavin_Fast_Algorithms_for_CVPR_2016_paper.pdf)
+  - [Deep pyramidal residual networks with separated stochastic depth](https://arxiv.org/pdf/1612.01230.pdf)
+  - [Deep Networks with Stochastic Depth](https://arxiv.org/pdf/1603.09382.pdf)
+  - [Deep dynamic neural networks for multimodal gesture segmentation and recognition](http://publications.idiap.ch/downloads/papers/2016/Wu_DEEPDYNAMICNEURALNETWORKSFORMULTIMODALGESTURESEGMENTATIONANDRECOGNITION_2016.pdf)
+  - [Dynamic capacity networks](https://arxiv.org/pdf/1511.07838.pdf)
+- 2015 
+  - [Going deeper with Convolutions](https://www.cs.unc.edu/~wliu/papers/GoogLeNet.pdf)
+- 2014 
+  - [Fast training of convolutional networks through FFTs](https://arxiv.org/pdf/1312.5851.pdf)
