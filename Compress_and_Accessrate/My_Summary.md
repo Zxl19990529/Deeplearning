@@ -12,7 +12,7 @@
 ## Knowledge Distillation
 - 2017 
   - [A Gift From Knowledge Distillation: Fast Optimization, Network Minimization and Transfer Learning](http://openaccess.thecvf.com/content_cvpr_2017/papers/Yim_A_Gift_From_CVPR_2017_paper.pdf)
-  - [Learning Efficient Object Detection Models with Knowledge Distillation](Learning Efficient Object Detection Models with Knowledge Distillation)
+  - [Learning Efficient Object Detection Models with Knowledge Distillation](https://papers.nips.cc/paper/6676-learning-efficient-object-detection-models-with-knowledge-distillation.pdf)
 - 2016 
   - [Paying more attention to attention: Improving the performance of convolutional neural networks via attention transfer](https://arxiv.org/pdf/1612.03928.pdf)
   - [Face model compression by distilling knowledge from neurons](http://www.aaai.org/ocs/index.php/AAAI/AAAI16/paper/download/11977/12130) (点击下载)
