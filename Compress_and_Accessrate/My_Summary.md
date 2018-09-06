@@ -78,6 +78,7 @@
   - [From Hashing to CNNs: Training Binary Weight Networks via Hashing](https://arxiv.org/pdf/1802.02733.pdf)
   - [A General Two-Step Quantization Approach for Low-bit Neural Networks with High Accuracy](http://openaccess.thecvf.com/content_cvpr_2018/papers/Wang_Two-Step_Quantization_for_CVPR_2018_paper.pdf)
 - 2017
+  - [Incremental Network Quantization: Towards Lossless CNNs with Low-Precision Weights](https://arxiv.org/pdf/1702.03044.pdf)
   - [Flexpoint: An Adaptive Numerical Format for Efficient Training of Deep Neural Networks](http://papers.nips.cc/paper/6771-flexpoint-an-adaptive-numerical-format-for-efficient-training-of-deep-neural-networks.pdf)
   - [QSGD: Communication-Efficient SGD via Gradient Quantization and Encoding](https://pdfs.semanticscholar.org/c9d6/4aaa2007b60ef7814acc895dd90f15578a20.pdf)
   - [TernGrad: Ternary Gradients to Reduce Communication in Distributed Deep Learning](http://papers.nips.cc/paper/6749-terngrad-ternary-gradients-to-reduce-communication-in-distributed-deep-learning.pdf)
