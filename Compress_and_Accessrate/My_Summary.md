@@ -85,7 +85,7 @@
 - 2016
   - [Loss-aware binarization of deep Networks](https://arxiv.org/pdf/1611.01600.pdf)
   - [Deep neural networks are robust to weight binarization and other nonlinear distortions](https://arxiv.org/pdf/1606.01981.pdf)
-  - [Xnor-net:Imagenet classification using binary convolutional neural networks](https://link.springer.com/book/10.1007/978-3-319-46493-0)
+  - [Xnor-net:Imagenet classification using binary convolutional neural networks](https://arxiv.org/pdf/1603.05279.pdf)
   - [Binarynet: Training deep neural networks with weights and activations constrained to +1 or -1](https://arxiv.org/pdf/1602.02830.pdf)
   - [Towards the limit of network quantization ](https://arxiv.org/pdf/1612.01543.pdf)
   - [Deep compression: Compressing Neural networks with pruning, trained quantization and huffman coding](https://arxiv.org/pdf/1510.00149.pdf)
