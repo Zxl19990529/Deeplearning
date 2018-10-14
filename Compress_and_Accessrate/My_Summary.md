@@ -85,6 +85,7 @@
   - [QSGD: Communication-Efficient SGD via Gradient Quantization and Encoding](https://pdfs.semanticscholar.org/c9d6/4aaa2007b60ef7814acc895dd90f15578a20.pdf)
   - [TernGrad: Ternary Gradients to Reduce Communication in Distributed Deep Learning](http://papers.nips.cc/paper/6749-terngrad-ternary-gradients-to-reduce-communication-in-distributed-deep-learning.pdf)
 - 2016
+  - [Binarized Neural Networks: Training Neural Networks with Weights and Activations Constrained to +1 or −1](https://arxiv.org/pdf/1602.02830.pdf)
   - [Loss-aware binarization of deep Networks](https://arxiv.org/pdf/1611.01600.pdf)
   - [Deep neural networks are robust to weight binarization and other nonlinear distortions](https://arxiv.org/pdf/1606.01981.pdf)
   - [Xnor-net:Imagenet classification using binary convolutional neural networks](https://arxiv.org/pdf/1603.05279.pdf)
