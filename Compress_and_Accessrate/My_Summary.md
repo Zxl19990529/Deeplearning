@@ -74,7 +74,7 @@
 
 ## Quantization and Binarization
 - 2018
-  -[Bi-Real Net: Enhancing the Performance of 1-bit CNNs With Improved Representational Capability and Advanced Training Algorithm](https://arxiv.org/pdf/1808.00278.pdf)
+  - [Bi-Real Net: Enhancing the Performance of 1-bit CNNs With Improved Representational Capability and Advanced Training Algorithm](https://arxiv.org/pdf/1808.00278.pdf)
   - [Extremely Low Bit Neural Network: Squeeze the Last Bit Out with ADMM](https://www.aaai.org/ocs/index.php/AAAI/AAAI18/paper/viewPDFInterstitial/16767/16728)
   - [From Hashing to CNNs: Training Binary Weight Networks via Hashing](https://arxiv.org/pdf/1802.02733.pdf)
   - [A General Two-Step Quantization Approach for Low-bit Neural Networks with High Accuracy](http://openaccess.thecvf.com/content_cvpr_2018/papers/Wang_Two-Step_Quantization_for_CVPR_2018_paper.pdf)
