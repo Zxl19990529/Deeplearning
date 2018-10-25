@@ -10,6 +10,8 @@
 - 1991 
   - Generalized Displacement Structure for Block-Toeplitz, Toeplitz-block, and Toeplitz-derived Matrices
 ## Knowledge Distillation
+- 2018
+  - [Born Again Neural Networks](https://arxiv.org/abs/1805.04770)
 - 2017 
   - [A Gift From Knowledge Distillation: Fast Optimization, Network Minimization and Transfer Learning](http://openaccess.thecvf.com/content_cvpr_2017/papers/Yim_A_Gift_From_CVPR_2017_paper.pdf)
   - [Learning Efficient Object Detection Models with Knowledge Distillation](https://papers.nips.cc/paper/6676-learning-efficient-object-detection-models-with-knowledge-distillation.pdf)
